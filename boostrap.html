@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/boo.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <header>
+
+  
+    <nav class="navbar navbar-expand-lg   navbar-ligth navbar-dark navbar-lg-light">
+
+        <div class="container-fluid ">
+          <a class="navbar-brand logo__container p-0 d-lg-none d-block " href="#">
+            <img src="images/logo.png " class="img-fluid imge" alt="" > </a>
+          </a>
+          <button class="navbar-toggler " href="#offcanvasExample" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasExample" >
+            <i class="fa fa-bars "></i>
+          </button>
+         <!--add canvas-->
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <a class="nav-link" href="#"><img src="images/logo.png " class="img-fluid " alt="" ></a>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <ul class="navbar-nav mx-auto navbar-brand">
+      <li class="nav-item  me-5">
+        <a class="nav-link " aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item   me-5">
+        <a class="nav-link " href="#">Service</a>
+      </li>
+      <li class="nav-item p-lg-2  me-5">
+        <a class="nav-link" href="#">Aide</a>
+      </li>
+      <li class="nav-item p-lg-2">
+        <a class="nav-link" href="#">Propos</a>
+      </li> 
+    </ul>
+ <hr >
+    <div class="d-flex drap gap-4 ms-auto" >
+         <img src="images/usa.png " class=""  alt="">
+         <img src="images/maroc.png" alt="">
+         <img src="images/france.png" alt="">
+
+    </div>
+    
+  </div>
+      </div>
+
+<!--end canvas-->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto navbar-brand fw-bold">
+              <li class="nav-item p-lg-2 me-5">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item p-lg-2 me-5">
+                <a class="nav-link  " href="#">Service</a>
+              </li>
+              <li class="nav-item p-lg-0 logo__container d-none d-lg-block me-5 " >
+                <a class="nav-link" href="#"><img src="images/logo.png " class=" imge" alt="" ></a>
+              </li>
+              <li class="nav-item p-lg-2 me-5">
+                <a class="nav-link" href="#">Aide</a>
+              </li>
+              <li class="nav-item p-lg-2">
+                <a class="nav-link" href="#">Propos</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+     <div class="landing d-flex  justify-content-center  ">
+        <div class=" text-center ">
+          <h1 class="text-white fw-bold">Marketing Digital</h1>
+          <div class="scroll-animation">
+            <span class="scroll-animation-bar"></span>
+            <span class="scroll-animation-bar"></span>
+            <span class="scroll-animation-bar"></span>
+
+        </div>
+        </div>
+     </div>
+
+
+    </header>
+    <!--sart social media-->
+
+    <div class="contactnous d-flex justify-content-between">
+
+
+      <div class="guys"> 
+        <div class="gu">Social Media Marketing</div>
+        <br>
+        <div  class="gu">Influencer Marketing</div>
+        <br><br>
+        <div  class="gu">Influencer Marketing</div>
+        <br>
+        <div  class="gu">Influencer Marketing</div>
+
+
+    </div> 
+
+        <div class="d-flex flex-column align-items-end social" >
+      
+        <div class="contact bg-danger d-flex justify-content-center align-items-center " id="one">
+          <i class="fa fa-envelope  " aria-hidden="true"></i>
+      </div>
+      <div class="contact  bg-success  d-flex justify-content-center align-items-center  " id="two">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      
+      </div>
+      <div class="contact  bg-primary  d-flex justify-content-center align-items-center  " id="tree ">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+      </div>
+      </div>
+
+      </div>
+
+    <!--end social media-->
+
+    <!--start -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    
+  $(document).ready(function(){
+      $("#one").hover(function(){
+         $(".contact").css("width", "220px");
+         $("i").hide();
+          $(".hide").show();
+ 
+      });
+      $("#two").hover(function(){
+         $(".contact").css("width", "220px");
+         $("i").hide();
+          $(".hide").show();
+ 
+      });
+      $("#tree").hover(function(){
+         $(".contact").css("width", "220px");
+         $("i").hide();
+          $(".hide").show();
+ 
+      });
+  });
+ 
+ 
+ </script>
+</body>
+</html>

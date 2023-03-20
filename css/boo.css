@@ -1,0 +1,177 @@
+body{
+    font-family: "Roboto",sans-serif;
+}
+/*start navbar*/
+
+.logo__container {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.imge{
+    margin-top: -23px;
+    height: 120px;
+    width: 70px;
+    
+}
+
+.navbar .navbar-nav .nav-link{
+    color: white;
+    font-size: 25PX;
+}
+
+header{
+    background: linear-gradient( 180deg, rgba(17, 97, 168, 0.8) 28.36%, rgba(72, 186, 194, 0.8) 85.96% ), url(../images/mobile_app-development.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.navbar-toggler{
+    width: 58px;
+    font-size: 36px;
+}
+
+.offcanvas-body ul{
+    color: black;
+}
+
+.offcanvas-body .navbar-nav .nav-link{
+    color: black;
+}
+.drap img{
+    width: 50px;
+}
+/*scroll*/
+
+.scroll-animation{
+    margin-top: 80px;
+    left: 50%;
+    height: 35%;
+    width: 0.2rem !important;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.scroll-animation-bar{
+    background-color: #fff;
+    height: 100%;
+    width:100%;
+    border-radius: 0.2 rem !important;
+}
+.scroll-animation-bar:nth-child(1){
+    animation: scrollAnimation  1s infinite    
+
+}
+.scroll-animation-bar:nth-child(2){
+    animation: scrollAnimation 0s  infinite;
+    margin: 0.4rem 0;   
+
+}
+
+
+@keyframes scrollAnimation {
+    0%{
+        height: 0.4 rem;
+    }
+    5%{
+       height: 10%;
+    }
+    
+}
+
+.landing{
+    margin-top: 30vh;
+}
+/*end navbar*/
+
+/*social media*/
+.contactnous{
+    height: 480px; 
+    margin-top: 30px;
+
+}
+.contact{
+    height: 56px;
+    width: 48px;
+}
+.guys{
+    margin-left: 420px;
+    margin-top: 50px;
+}
+.contact i{
+    font-size: 30px;
+    color: #fff;
+    
+}
+.contacte{
+    height: 56px;
+    width: 178px; 
+}
+.hide{
+    display: none;
+}
+
+.contact:hover {
+    width: 80px;
+}
+
+.guys::before{
+    content: "";
+    height: 170px;
+    width: 2px;
+    background-color: black;
+    display: block;
+
+}
+
+
+.gu{
+    font-size: 45px;
+    position: relative;
+    color: rgb(36, 36, 128);
+    font-weight: bold;
+}
+.gu::before{
+    content: "";
+    border-radius: 100%;
+    background-color: rgb(177, 174, 174);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    
+    margin-left: -27px;
+    margin-top: 25px;
+}
+
+.guys::before{
+    content: "";
+    background-color:  rgb(36, 36, 128);
+    width: 3px;
+    height:310px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 27px;
+
+}
+
+@media (max-width: 1500px ) {
+    .guys{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 811px ) {
+    .guys{
+        margin-left: 50px;
+    }
+    .gu{
+        font-size: 20px;
+    }
+    .gu::before{
+        margin-top: 10px;
+    }
+    .guys::before{
+        margin-top: 10px;
+        height: 190px;
+    }
+}
+/*end social media*/

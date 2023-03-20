@@ -1,0 +1,75 @@
+.contsocial{
+    background-color: beige;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    background-image: url('../images/vecteezy_social-media-and-digital-marketing-3d-illustration_11064657_146.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.menu::after{
+    content: "";
+    background-color: black;
+    top: 50%;
+    margin: 0%;
+    display: block;
+    height: 120px;
+    width: 20px;
+}
+.menu li{
+    position: absolute;
+    list-style: none;
+    transform-origin: 264px;
+    animation-name: trans;
+    animation:trans 10s infinite ;
+    animation-timing-function:linear;
+    
+}
+.menu li a ion-icon{
+    height: 50px;
+    width: 50px;
+    animation-duration: 0s;
+
+}
+.menu li:nth-child(0){
+    rotate: 40deg;
+    animation:trans 1s infinite ;
+    animation-timing-function:linear;
+}
+.menu li:nth-child(1){
+    rotate: 80deg;
+}
+.menu li:nth-child(2){
+    rotate: 130eg;
+}
+.menu li:nth-child(3){
+    rotate: 180deg;
+}
+.menu li:nth-child(4){
+    rotate: 220deg;
+}
+
+.menu li:nth-child(5){
+    rotate: 300deg;
+}
+/*
+@keyframes trans{
+    0%{
+        rotate: 280deg;
+        
+       
+
+    }
+   
+}*/
+

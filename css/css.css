@@ -1,0 +1,16 @@
+
+body{
+   
+        font-family: "barlow", "roboto", "lato", "open sans", sans-serif;
+      
+}
+.p-0{
+    padding: 0 !important;
+}
+header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url('../images/mobile_app-development.jpg');
+}
+
